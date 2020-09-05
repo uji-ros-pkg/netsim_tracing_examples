@@ -30,6 +30,7 @@ include_directories(
 add_library(${PROJECT_NAME}
 	src/LogCommsTracing.cpp
         src/MoveNodesTracing.cpp
+        src/LogMacCommsTracing.cpp
  )
 
 target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES})
