@@ -31,6 +31,7 @@ add_library(${PROJECT_NAME}
 	src/LogCommsTracing.cpp
         src/MoveNodesTracing.cpp
         src/LogMacCommsTracing.cpp
+        src/ErrorsTracing.cpp
  )
 
 target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES})
